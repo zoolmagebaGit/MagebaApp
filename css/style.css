@@ -219,7 +219,7 @@ padding: 100px 15px;
 background-color: #ffffff;
 }
 .text-center{
-    text-align: center!important;
+    text-align: center;
 }
 .text-left{
     text-align: left!important;
@@ -405,7 +405,7 @@ max-width: 50%;
 padding-right: 40px;
 }
 .skills .img{
-    background-color: blue;
+    /* background-color: blue; */
     flex: 0 0 50%;
     max-width: 50%;
 }
@@ -1008,6 +1008,44 @@ footer .social{
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .skills .skills-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 0px;
+    }
+    .skills .img {
+        /* background-color: blue; */
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .portfolio .portifolio-gallery .item {
+        flex: 0 0 50%;
+        max-width: 50%;
+        position: relative;
+        padding: 8px;
+    }
+     message-text .text {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .message-text .button {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: left;
+        padding-top: 20px;
+    }
+    .blogs .blogs-content .box {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .contact-us .contact-form {
+       padding:40px 20px;
+    }
+    .contact-us .contact-form .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
 @media (max-width: 500px){
     .home .home-content .block h1{
@@ -1019,6 +1057,23 @@ footer .social{
     .home .home-content .block{
          padding-left: 20px;
       }
+      .portfolio .portifolio-gallery .item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about-me .about-content .text .info .list p {
+        flex: 0 0 100%;
+    }
+    .testimonials .testimonials-content .testi-slider {
+        text-align: center;
+    }
+    .testimonials .testimonials-content .testi-slider .slide .img {
+        flex: 100px;
+        border-radius: 100px;
+    }
+    .testimonials .testimonials-content .testi-slider .slide {
+        flex-wrap: wrap;
+    }
     }
 
 
